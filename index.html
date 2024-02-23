@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Age calculator app || Dagoberto Salas</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <form action="" class="form">
+      <div class="form-control">
+        <label  for="day">Day</label>
+        <input type="number" name="day" id="day" placeholder="DD" min="0" max="31">
+        <small class="hide"></small>
+      </div>
+      <div class="form-control">
+        <label for="month">Month</label>
+        <input type="number" name="month" id="month" placeholder="MM" min="0">
+        <small class="hide"></small>
+      </div>
+      <div class="form-control">
+        <label for="year">Year</label>
+        <input type="number" name="year" id="year" placeholder="YYYY" min="0">
+        <small class="hide"></small>
+      </div>
+    </form>
+
+    <div class="divider ">
+
+      <img class="arrow-img" id="calc" src="./assets/images/icon-arrow.svg" alt="">
+    </div>
+
+    <div class="details mt">
+
+      <p> <span class="detail-year">--</span>years</p>
+      <p> <span class="detail-month">--</span>months</p>
+      <p> <span class="detail-day">--</span>days</p>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
